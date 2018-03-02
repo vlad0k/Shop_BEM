@@ -1,0 +1,24 @@
+.header{
+  background-color: #141414;
+  font-size: 10px;
+  color: white;
+  position: relative;
+}
+
+.header__li-tag{
+  list-style: none;
+}
+
+.header__list{
+  margin: 0;
+  display: inline-block;
+}
+
+.header__navigation{
+  display: inline-block;
+}
+
+.header__list_right-position{
+  position: absolute;
+  right: 108px;
+}

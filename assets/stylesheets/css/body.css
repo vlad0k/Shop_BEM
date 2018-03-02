@@ -1,0 +1,40 @@
+.body{
+  margin: 0;
+  font-family: Roboto-Regular;
+  min-width: 1280px;
+}
+
+.body__elem{
+  padding: 0 108px;
+}
+
+.body__elem_is-header{
+  padding: 13px 108px;
+}
+
+.body__elem_centered{
+    margin: 16px 20%;
+}
+
+.body__call-info{
+  display: inline-block;
+  position: absolute;
+  right: 108px;
+  top: 50px;
+}
+
+.body__phone-number{
+  margin:0;
+}
+
+.body__small-text{
+  font-size: 10px;
+  color: #A6A6A6;
+}
+/*
+.body__elem_underlined_grey{
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
