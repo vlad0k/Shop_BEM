@@ -7,5 +7,32 @@
 .recomendations__container{
   padding: 26px;
   background-color: white;
-  width: 472px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-between;
+}
+
+.recomendations_header{
+  margin: 0;
+}
+
+.recomendations_text{
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.recomendations__button{
+    margin-top: 20px;
+}
+
+.recomendations__column{
+  display: inline-block;
+}
+
+.recomendations__image{
+  padding-left: 70px;
+}
+
+.recomendations__header_small{
+  display: block;
 }
