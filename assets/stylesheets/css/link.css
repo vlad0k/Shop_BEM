@@ -1,8 +1,14 @@
 .link{
   text-decoration: none;
   display: inline-block;
+  color: black;
+  font-size: 10px;
 }
 
 .link_spaced{
   padding-left: 10px;
+}
+
+.link_white{
+  color: white;
 }

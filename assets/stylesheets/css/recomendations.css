@@ -1,0 +1,11 @@
+.recomendations{
+  padding: 13px 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recomendations__container{
+  padding: 26px;
+  background-color: white;
+  width: 472px;
+}

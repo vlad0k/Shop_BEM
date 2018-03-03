@@ -2,7 +2,10 @@
 @import "assets/stylesheets/css/header.css";
 @import "assets/stylesheets/css/link.css";
 @import "assets/stylesheets/css/search-form.css";
-
+@import "assets/stylesheets/css/catergories-navigation.css";
+@import "assets/stylesheets/css/righted-block.css";
+@import "assets/stylesheets/css/recomendations.css";
+@import "assets/stylesheets/css/hit.css";
 
 @font-face {
     font-family: Roboto-Regular;
