@@ -1,0 +1,8 @@
+.container{
+  position: relative;
+}
+
+.container__bottom-image{
+  position: absolute;
+  bottom: 0px;
+}

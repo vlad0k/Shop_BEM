@@ -4,15 +4,29 @@
   position: relative;
 }
 
+.header_style_bottom{
+  padding: 34px;
+}
+
 .header__li-tag{
   list-style: none;
 }
 
 .header__list{
+  list-style: none;
   margin: 0;
   display: inline-block;
 }
 
+.header__list_style_bottom{
+  padding-right: 60px;
+}
 .header__navigation{
   display: inline-block;
+}
+
+.header__social {
+  position: absolute;
+  right: 108px;
+  top: 30px;
 }

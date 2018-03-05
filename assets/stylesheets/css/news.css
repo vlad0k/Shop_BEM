@@ -1,0 +1,22 @@
+.news{
+  padding-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.news__column{
+  width: 528px;
+  margin-right: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news__article{
+  background-color: white;
+  width: 482px;
+  padding: 22px
+}
+
+.news__heading{
+  margin-top: 0;
+}

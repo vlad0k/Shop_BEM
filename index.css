@@ -7,6 +7,11 @@
 @import "assets/stylesheets/css/recomendations.css";
 @import "assets/stylesheets/css/hit.css";
 @import "assets/stylesheets/css/main-button.css";
+@import "assets/stylesheets/css/container.css";
+@import "assets/stylesheets/css/goods-section.css";
+@import "assets/stylesheets/css/goods.css";
+@import "assets/stylesheets/css/news.css";
+@import "assets/stylesheets/css/footer.css";
 
 @font-face {
     font-family: Roboto-Regular;

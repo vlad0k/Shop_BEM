@@ -28,6 +28,7 @@
 
 .body__elem_overlined{
   border-top: 1px solid #F5F5F5;
+  position: relative;
 }
 
 .body__elem_bg-color_grey{
