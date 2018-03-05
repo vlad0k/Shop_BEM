@@ -1,36 +1,17 @@
-.body{
-  margin: 0;
-  font-family: Roboto-Regular;
-  min-width: 1280px;
-}
+.body { margin: 0; font-family: Roboto-Regular; min-width: 1280px; }
 
-.body__elem{
-  padding: 0 108px;
-}
+.body__elem { padding: 0 108px; }
 
-.body__elem_is-header{
-  padding: 13px 108px;
-}
+.body__elem_is-header { padding: 13px 108px; }
 
-.body__elem_centered{
-    margin: 16px 20%;
-}
+.body__elem_centered { margin: 16px 20%; }
 
+.body__phone-number { margin: 0; }
 
-.body__phone-number{
-  margin:0;
-}
+.body__small-text { font-size: 10px; color: #A6A6A6; }
 
-.body__small-text{
-  font-size: 10px;
-  color: #A6A6A6;
-}
+.body__elem_overlined { border-top: 1px solid #F5F5F5; position: relative; }
 
-.body__elem_overlined{
-  border-top: 1px solid #F5F5F5;
-  position: relative;
-}
+.body__elem_bg-color_grey { background-color: #F5F5F5; }
 
-.body__elem_bg-color_grey{
-  background-color: #F5F5F5;
-}
+.body__elem_news { padding-bottom: 60px; }

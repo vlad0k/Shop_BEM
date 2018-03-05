@@ -1,18 +1,7 @@
-.goods-section{
-  padding-bottom: 60px;
-}
+.goods-section { padding-bottom: 60px; }
 
-.goods-section_grey{
-  background-color: #F5F5F5;
-}
+.goods-section_grey { background-color: #F5F5F5; }
 
-.goods-section__heding{
-  text-align: center;
-  margin: 0;
-  padding: 50px 0;
-}
+.goods-section__heding { text-align: center; margin: 0; padding: 50px 0; }
 
-.goods-section__button{
-  margin: auto;
-  margin-top: 34px;
-}
+.goods-section__button { margin: auto; margin-top: 34px; }

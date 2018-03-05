@@ -1,28 +1,5 @@
-.search-form{
-  padding: 8px;
-  border: 1px solid #F5F5F5;
-  border-radius: 5px;
-  width: 90%;
-  font-size: 10px;
-  position:relative;
-}
+.search-form { padding: 8px; border: 1px solid #F5F5F5; border-radius: 5px; width: 90%; font-size: 10px; position: relative; }
 
-.search-form__input-field{
-  height: 14px;
-  padding: 0;
-  border: none;
-  outline: none;
-  width: 90%;
-}
+.search-form__input-field { height: 14px; padding: 0; border: none; outline: none; width: 90%; }
 
-.search-form__search-button{
-  height: 32px;
-  width: 65px;
-  background-color: #FBE65C;
-  outline: none;
-  border: none;
-  position: absolute;
-  right: -1px;
-  top: -1px;
-  border-radius: 0 5px 5px 0;
-}
+.search-form__search-button { height: 32px; width: 65px; background-color: #FBE65C; outline: none; border: none; position: absolute; right: -1px; top: -1px; border-radius: 0 5px 5px 0; }

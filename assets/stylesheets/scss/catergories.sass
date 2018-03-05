@@ -1,0 +1,56 @@
+$yellow_color: #FBE65C
+
+.categories
+
+  &__navbar-link
+    padding: 18px 5px
+
+  &__navbar-link:hover
+    padding-bottom: 0px
+
+  &__navbar-link_main:hover
+    padding-bottom: 18px
+
+  &__navbar-link:hover &__popup-menu
+    display: block
+
+  &__navbar-link:hover &__arrow-of-popup
+    display: block
+
+  &__user-bag
+    top: 12px
+
+  &__arrow-of-popup
+    display: none
+    margin: auto
+    margin-top: 9px
+    margin-bottom: -5px
+    width: 0
+    height: 0
+    border-right: 13px solid $yellow_color
+    border-top: 13px solid transparent
+    transform: rotate(225deg)
+
+  &__popup-menu
+    display: none
+    position: absolute
+    width: 100%
+    padding: 62px
+    padding-bottom: 30px
+    background-color: $yellow_color
+    font-size: 20px
+    top: 44px
+    left: 0px
+    z-index: 1
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2)
+
+  &__link
+    display: inline-block
+    margin-right: 60px
+    font-size: 20px
+    margin-bottom: 32px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+
+  &__navbar-link_active
+    border-top: 2px solid $yellow_color
+    box-shadow: inset 0px 10px 20px -10px rgba(0, 0, 0, 0.1)
