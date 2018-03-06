@@ -8,13 +8,29 @@ $grey_color: #F5F5F5
       &__elem
             padding: 0 108px
 
-      &__elem_product-page
-        padding-bottom: 16px
-      &__elem_is-header
-            padding: 13px 108px
+            &_product-page
+                  padding-bottom: 16px
 
-      &__elem_centered
-            margin: 16px 20%
+            &_is-header
+                  padding: 13px 108px
+
+            &_centered
+                  margin: 16px 20%
+
+            &_overlined
+                  border-top: 1px solid $grey_color
+                  position: relative
+                  box-shadow: 0 5px 10px rgba(0,0,0,0.2)
+
+                  &_no-shadow
+                    box-shadow: 0 5px 10px rgba(0,0,0,0)
+
+
+            &_bg-color_grey
+                  background-color: $grey_color
+
+            &_news
+                  padding-bottom: 60px
 
       &__phone-number
             margin: 0
@@ -22,14 +38,3 @@ $grey_color: #F5F5F5
       &__small-text
             font-size: 10px
             color: #A6A6A6
-
-      &__elem_overlined
-            border-top: 1px solid $grey_color
-            position: relative
-            box-shadow: 0 5px 10px rgba(0,0,0,0.2)
-
-      &__elem_bg-color_grey
-            background-color: $grey_color
-
-      &__elem_news
-            padding-bottom: 60px

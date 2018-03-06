@@ -8,12 +8,14 @@
 
 .body__elem_centered { margin: 16px 20%; }
 
-.body__phone-number { margin: 0; }
-
-.body__small-text { font-size: 10px; color: #A6A6A6; }
-
 .body__elem_overlined { border-top: 1px solid #F5F5F5; position: relative; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2); box-shadow: 0 5px 10px rgba(0, 0, 0, .2); }
+
+.body__elem_overlined_no-shadow { -webkit-box-shadow: 0 5px 10px transparent; box-shadow: 0 5px 10px transparent; }
 
 .body__elem_bg-color_grey { background-color: #F5F5F5; }
 
 .body__elem_news { padding-bottom: 60px; }
+
+.body__phone-number { margin: 0; }
+
+.body__small-text { font-size: 10px; color: #A6A6A6; }

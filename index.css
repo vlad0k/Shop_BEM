@@ -16,6 +16,10 @@
 @import "assets/stylesheets/css/way.css";
 @import "assets/stylesheets/css/column.css";
 @import "assets/stylesheets/css/product.css";
+@import "assets/stylesheets/css/price.css";
+@import "assets/stylesheets/css/star.css";
+@import "assets/stylesheets/css/why-us.css";
+
 
 @font-face {
     font-family: Roboto-Regular;

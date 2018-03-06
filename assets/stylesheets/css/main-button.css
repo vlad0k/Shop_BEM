@@ -3,3 +3,9 @@
 .main-button:hover { background-color: #43A1E9; color: white; }
 
 .main-button_style_news { margin: auto; margin-top: 60px; }
+
+.main-button_in-line { display: inline-block; }
+
+.main-button_secondary { margin-left: 10px; border-color: #F0D757; }
+
+.main-button_secondary:hover { background-color: #F0D757; }
