@@ -13,6 +13,9 @@
 @import "assets/stylesheets/css/goods.css";
 @import "assets/stylesheets/css/news.css";
 @import "assets/stylesheets/css/footer.css";
+@import "assets/stylesheets/css/way.css";
+@import "assets/stylesheets/css/column.css";
+@import "assets/stylesheets/css/product.css";
 
 @font-face {
     font-family: Roboto-Regular;
