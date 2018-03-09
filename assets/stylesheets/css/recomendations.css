@@ -6,10 +6,10 @@
 
 .recomendations__header { margin: 0; }
 
+.recomendations__header_small { display: block; }
+
 .recomendations_text { font-weight: bold; font-size: 10px; }
 
 .recomendations__button { margin-top: 20px; }
 
 .recomendations__image { padding-left: 70px; }
-
-.recomendations__header_small { display: block; }

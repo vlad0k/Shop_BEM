@@ -12,14 +12,15 @@
 @import "assets/stylesheets/css/goods-section.css";
 @import "assets/stylesheets/css/goods.css";
 @import "assets/stylesheets/css/news.css";
-@import "assets/stylesheets/css/footer.css";
 @import "assets/stylesheets/css/way.css";
 @import "assets/stylesheets/css/column.css";
 @import "assets/stylesheets/css/product.css";
 @import "assets/stylesheets/css/price.css";
 @import "assets/stylesheets/css/star.css";
 @import "assets/stylesheets/css/why-us.css";
-
+@import "assets/stylesheets/css/manufacturer-description.css";
+@import "assets/stylesheets/css/video.css";
+@import "assets/stylesheets/css/reviews.css";
 
 @font-face {
     font-family: Roboto-Regular;

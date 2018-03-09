@@ -1,0 +1,86 @@
+.reviews
+  display: flex
+  align-items: flex-start
+
+  &__graphs
+    position: relative
+
+  &__number
+    display: inline-block
+    position: absolute
+    margin-top: 6px
+    font-weight: bold
+    font-size: 12px
+    &_mark
+      margin-left: 30px
+    &_votes
+      margin-left: 170px
+  &__percent-line
+    display: inline-block
+    width: 120px
+    height: 10px
+    margin-left: 10px
+    background-color: #F5F5F5
+    position: absolute
+    margin-left: 45px
+    margin-top: 8px
+
+    &_active
+      background-color: #FBE65C
+      position: absolute
+      margin: 0
+
+      &_5
+        width: 120px * (41/50)
+      &_4
+        width: 120px * (24/50)
+      &_3
+        width: 120px * (5/50)
+      &_2
+        width: 120px * (1/50)
+      &_1
+        width: 120px * (0/50)
+
+  &__parent
+    position: parent
+
+  &__one-review
+    margin-left: 300px
+    margin-top: 0
+    border-bottom: 1px solid #F5F5F5
+
+    &_alert
+      display: flex
+
+  &__section
+    margin: 20px 0
+    font-size: 12px
+    font-weight: bold
+
+  &__header
+    display: inline-block
+    margin-top: 20px
+  &__stars
+    display: inline-block
+    margin: 0 80px
+    padding-top: 10px
+
+  &__button
+    display: inline-block
+    margin: 20px
+    margin-bottom: 50px
+
+    &_main
+      margin-left: 300px
+
+  &__alert
+    display: flex
+    border-top: 1px solid #F5F5F5
+    margin-top: 10px
+    padding-top: 10px
+
+  &__alert-text
+    margin-left: 10px
+    width: 170px
+    font-size: 9px
+    color: #A6A6A6
